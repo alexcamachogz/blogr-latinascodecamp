@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | [Blogr]</title>
 </head>
@@ -17,16 +18,17 @@
     <nav class="navbar">
       <div class="navbar-content">
         <img src="./images/logo.svg" alt="Blogr logo">
-        <ul class="menu">
+        <!-- <ul class="menu">
           <li class="menu-item">Product</li>
           <li class="menu-item">Company</li>
           <li class="menu-item">Connect</li>
-        </ul>
+        </ul> -->
       </div>
 
       <div class="button-container">
-        <a class="btn btn--transparent">Login</a>
-        <a class="btn btn--white">Sign Up</a>
+        <!-- <a class="btn btn--transparent">Login</a>
+        <a class="btn btn--white">Sign Up</a> -->
+        <img src="./images/icon-hamburger.svg" alt="menu">
       </div>
     </nav>
 
@@ -34,16 +36,17 @@
       <h1 class="hero-title">A modern publishing platform</h1>
       <p class="hero-paragraph">Grow your audience and build your online brand</p>
       <div class="button-container">
-        <a class="btn btn--white">Start for Free</a>
-        <a class="btn btn--transparent">Learn More</a>
+        <button class="btn btn--white">Start for Free</button>
+        <button class="btn btn--transparent">Learn More</button>
       </div>
     </section>
   </header>
 
   <main class="main">
     <h2 class="main-title">Designed for the future</h2>
-    <section class="main-content">
-      <div class="content-text">
+    <div class="main-container">
+      <div class="content-image"></div>
+      <section class="main-content">
         <h3 class="content-title">Introducing an extensible editor</h3>
         <p class="content-paragraph">Blogr features an exceedingly intuitive interface which lets you focus on one
           thing: creating content.
@@ -56,12 +59,11 @@
           the usability of your blog
           by adding customized categories, sections, format, or flow. With this functionality, you are in full control.
         </p>
-      </div>
-      <div class="content-image"></div>
-    </section>
+      </section>
+    </div>
   </main>
 
-  <section class="state">
+  <!-- <section class="state">
     <div class="state-image">
       <img src="./images/illustration-phones.svg" alt="Phones">
     </div>
@@ -87,7 +89,7 @@
         but capable of producing even the most complicated sites.</p>
     </div>
   </section>
-
+-->
   <footer class="footer">
     <img src="./images/logo.svg" alt="Blogr logo">
     <section class="product">
